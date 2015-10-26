@@ -1,0 +1,297 @@
+<DOCTYPE html>
+
+<html lang=”pt-br>
+
+<head>
+
+	<meta charset="utf-8">	<!-- Permite acentuação gráfica -->
+	<title>Home Page - Mirror Fashion</title>
+    
+    <!-- Chama a função CSS Reset para configurar a para gina no browser -->
+	<link rel="stylesheet" href="css/reset.css">
+
+    <!-- Inserir a folha de estílo na página -->
+	<link href="css/mirror_fashion.css" rel="stylesheet" type="text/css">
+
+	<!-- Inserir a folha de estílo na página 
+	<link href="css/mobile.css" rel="stylesheet" type="text/css"> -->
+	
+	<!-- Configurar a resolução para mobile -->
+	<meta name="viewport" content="width=device-width">
+	
+	<!-- Chama a função de configuração para mobile configurando a página em 320 pixels que é o padrão -->
+	<link rel="stylesheet" href="css/mobile.css" media="(max-width: 320px)">
+
+	<!-- Chama a função de configuração para mobile configurando a página em 939 pixels que é o padrão -->
+	<link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
+	
+</head>
+
+<body style="background: #F4F4F4">		<!-- Cor do fundo da página -->
+
+
+<!-- Cabeçalho -->
+<header class="container">
+	
+<div class="menu-setores"></div>
+	
+<p class="sacola">
+	Nenhum item na sacola de compras
+</p>
+
+<!-- Menu de navegação -->
+<div class="menu-setores">
+	<a href="#">Sua Conta</a>
+    <a href="#">Lista de Desejos</a>
+    <a href="#">Cartão Fidelidade</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="#">Ajuda</a></div>
+
+<!-- Inserir imagem no menu -->
+<span div="menu-setores"><img src="img/logo.png" alt="Mirror Fashion"></span>
+
+</header>
+
+<br><br><br><br><br><br><br>
+
+<div class="container destaque">
+
+<!-- Busca -->
+<section class="busca">
+
+<h6>Busca</h6>
+<!-- Pesquisar google.com na barra de busca -->
+<form action="http://www.google.com.br/search" id="form-busca">
+
+	<input type="search" name="q" id="q">	<!-- Fazer ficar compatível com o google.com -->
+	<input type="image" src="img/busca.png">
+</form>
+
+</section>
+
+<!-- Menu departamentos -->
+<section class="menu-departamentos">
+
+<h6>Departamentos</h6>
+
+<nav>
+	<ul style="padding-left: 0px;">
+		<li>
+			<a href="#">Blusas e Camisas</a>
+			<ul>
+				<li><a href="#">Manga Curta</a></li>
+				<li><a href="#">Manga Comprida</a></li>
+				<li><a href="#">Camisa Social</a></li>
+				<li><a href="#">Camisa Casual</a></li>
+		</ul>
+		</li>
+		<li>
+			<a href="#">Calças</a>
+			<ul>
+			    <li><a href="#">Jeans</a></li>
+			    <li><a href="#">Tectel</a></li>
+			    <li><a href="#">Estampada</a></li>
+			    <li><a href="#">Saruel</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Saias</a>
+			<ul>
+			    <li><a href="#">Rodada</a></li>
+			    <li><a href="#">Estampada</a></li>
+			    <li><a href="#">Longa</a></li>
+			    <li><a href="#">Curta</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Vestidos</a>
+			<ul>
+			    <li><a href="#">Longo</a></li>
+			    <li><a href="#">Curto</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Sapatos</a>
+			<ul>
+			    <li><a href="#">Masculino</a></li>
+			    <li><a href="#">Feminino</a></li>
+			    <li><a href="#">Infantil</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Bolsas e Carteiras</a>
+			<ul>
+			    <li><a href="#">Masculino</a></li>
+			    <li><a href="#">Feminino</a></li>
+			    <li><a href="#">Infantil</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Acessórios</a></li>
+	</ul>
+</nav>
+
+</section>
+
+<!-- Imagem principal (Ao lado da busca e do menu de departamentos) -->
+<img src="img/destaque-home.png" alt="Promoção: Big City Night">
+
+</div>
+
+<div class="container paineis">
+
+<!-- NOVIDADES -->
+<section class="painel novidades">
+
+<h6>Novidades</h6>
+	
+	<ol>
+	
+	<li>
+	<a href="produto.html">
+	<figure>
+		<img src="img/produtos/foto15-rosa.png">
+		<figcaption>Vestido vermelho por R$ 109,90</figcaption>
+	</figure>
+	</a>
+	</li>
+
+	<li>
+	<a href="produto.html">
+	<figure>
+		<img src="img/produtos/foto2-rosa.png">
+		<figcaption>Camisa rosa por apenas R$ 59,90</figcaption>
+	</figure>
+	</a>
+	</li>
+
+	<li>
+	<a href="produto.html">
+	<figure>
+		<img src="img/produtos/foto3-azul.png">
+		<figcaption>Blusa de malha azul por R$ 89,90</figcaption>
+	</figure>
+	</a>
+	</li>
+
+	<li>
+	<a href="produto.html">
+	<figure>
+		<img src="img/produtos/foto4-azul.png">
+		<figcaption>Casaco azul por R$ 189,90</figcaption>
+	</figure>
+	</a>
+	</li>
+
+	<li>
+	<a href="produto.html">
+	<figure>
+		<img src="img/produtos/foto4-rosa.png">
+		<figcaption>Casaco vermelho por R$ 189,90</figcaption>
+	</figure>
+	</a>
+	</li>
+
+	<li>
+	<a href="produto.html">
+	<figure>
+		<img src="img/produtos/foto5-azul.png">
+		<figcaption>Camiseta azul por apenas R$ 39,90</figcaption>
+	</figure>
+	</a>
+	</li>
+	
+	</ol>
+
+</section>
+
+<!-- MAIS VENDIDOS -->
+<section class="mais-vendidos">
+	
+<h6>Mais Vendidos</h6>
+	
+	<ol>
+	
+	<li>
+	<a href="produto.html">
+	<figure>
+		<img src="img/produtos/foto6-azul.png">
+		<figcaption>Regata azul por apenas R$ 39,90</figcaption>
+	</figure>
+	</a>
+	</li>
+
+	<li>
+	<a href="produto.html">
+	<figure>
+		<img src="img/produtos/foto7-verde.png">
+		<figcaption>Camisa verde por apenas R$ 49,90</figcaption>
+	</figure>
+	</a>
+	</li>
+
+	<li>
+	<a href="produto.html">
+	<figure>
+		<img src="img/produtos/foto7-azul.png">
+		<figcaption>Camisa azul bebê por R$ 49,90</figcaption>
+	</figure>
+	</a>
+	</li>
+
+	<li>
+	<a href="produto.html">
+	<figure>
+		<img src="img/produtos/foto14-verde.png">
+		<figcaption>Camisa social verde por R$ 69,90</figcaption>
+	</figure>
+	</a>
+	</li>
+
+	<li>
+	<a href="produto.html">
+	<figure>
+		<img src="img/produtos/foto11-rosa.png">
+		<figcaption>Short vermelho por apenas R$ 29,90</figcaption>
+	</figure>
+	</a>
+	</li>
+
+	<li>
+	<a href="produto.html">
+	<figure>
+		<img src="img/produtos/foto12-rosa.png">
+		<figcaption>Camisa social rosa por R$ 69,90</figcaption>
+	</figure>
+	</a>
+	</li>
+	
+	</ol>
+
+</section>
+
+</div>
+
+<!-- Rodapé -->
+<footer>
+
+<div class="container">
+	
+	<!-- Inserir e configurar logo do rodapé -->
+	<img src="img/logo-rodape.png" alt="Logo Mirror Fashion" style="padding-left: 40px;">
+	
+	<!-- Redes sociais -->
+	<ul class="social">
+		<li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+		<li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+		<li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
+	</ul>
+</div>
+
+</footer>
+
+<!-- Chama o arquivo do JavaScript, home.js dento da /js -->
+<script src="js/home.js"></script>
+
+</body>
+
+</html>
